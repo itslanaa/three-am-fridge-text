@@ -1,3 +1,4 @@
+// The 3AM Fridge Text — one line a smart fridge would text its owner at 3am.
 import fs from "node:fs";
 const TEXT = "It's 3am. The ice cream is gone, the milk expired yesterday, and I can see you. Go back to bed.";
 const out = process.env.MAKEFUN_OUTPUT_DIR || "/output";
